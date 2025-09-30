@@ -53,7 +53,7 @@ const Header: React.FC = () => {
           <Button 
             variant="primary" 
             className="ml-4"
-            onClick={() => window.location.href = '#apply'}
+            onClick={() => window.location.href = 'https://typebot.co/ag-ncia-aplica-es-marcos-digi-stor-ub0qfnk'}
           >
             Aplicar Agora
           </Button>
@@ -98,7 +98,7 @@ const Header: React.FC = () => {
               variant="primary" 
               className="w-full text-center py-3"
               onClick={() => {
-                window.location.href = '#apply';
+                window.location.href = 'https://typebot.co/ag-ncia-aplica-es-marcos-digi-stor-ub0qfnk';
                 setIsMenuOpen(false);
               }}
             >
