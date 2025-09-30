@@ -7,8 +7,7 @@ const Footer: React.FC = () => {
       <Container>
         <div className="text-center">
           <div className="text-2xl font-display font-bold mb-4">
-            <GradientText>Automatik</GradientText>
-            <span className="ml-1">Labs</span>
+            <GradientText>MarcosDigistor</GradientText>
           </div>
           <p className="text-white/70 max-w-sm mx-auto">
             Transformando negócios com IA e automação humanizada para resultados reais.
@@ -17,7 +16,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-dark-800/50 mt-10 pt-10">
           <p className="text-white/50 text-sm text-center">
-            © {new Date().getFullYear()} Automatik Labs. Todos os direitos reservados.
+            © {new Date().getFullYear()} MarcosDigistor. Todos os direitos reservados.
           </p>
         </div>
       </Container>
