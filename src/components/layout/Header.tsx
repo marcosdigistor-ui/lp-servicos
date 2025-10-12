@@ -34,7 +34,8 @@ const Header: React.FC = () => {
         <div className="flex items-center">
           <a href="#" className="flex items-center">
             <div className="text-2xl font-display font-bold">
-              <GradientText>MarcosDigistor</GradientText>
+              <GradientText>Automatik</GradientText>
+              <span className="ml-1">Labs</span>
             </div>
           </a>
         </div>
@@ -53,7 +54,7 @@ const Header: React.FC = () => {
           <Button 
             variant="primary" 
             className="ml-4"
-            onClick={() => window.location.href = 'https://typebot.co/ag-ncia-aplica-es-marcos-digi-stor-ub0qfnk'}
+            onClick={() => window.location.href = '#apply'}
           >
             Aplicar Agora
           </Button>
@@ -98,7 +99,7 @@ const Header: React.FC = () => {
               variant="primary" 
               className="w-full text-center py-3"
               onClick={() => {
-                window.location.href = 'https://typebot.co/ag-ncia-aplica-es-marcos-digi-stor-ub0qfnk';
+                window.location.href = '#apply';
                 setIsMenuOpen(false);
               }}
             >

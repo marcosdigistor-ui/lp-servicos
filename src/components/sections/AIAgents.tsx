@@ -155,8 +155,8 @@ const AIAgents: React.FC = () => {
               <div className="relative bg-dark-800/50 backdrop-blur-sm rounded-2xl p-1 border border-dark-700/50 hover:border-primary-500/30 transition-all duration-500 hover:shadow-xl hover:shadow-primary-500/10">
                 <div className="relative rounded-xl overflow-hidden">
                   <img 
-                    src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                    alt="AI robot assistant" 
+                    src="https://images.pexels.com/photos/8438969/pexels-photo-8438969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                    alt="AI agent visualization" 
                     className="w-full h-[400px] md:h-[500px] object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/50 to-transparent"></div>
@@ -170,7 +170,7 @@ const AIAgents: React.FC = () => {
                         </div>
                         <div>
                           <h4 className="font-medium text-white">Assistente IA</h4>
-                          <p className="text-xs text-white/60">MarcosDigistor</p>
+                          <p className="text-xs text-white/60">Automatik Labs</p>
                         </div>
                       </div>
                       <div className="space-y-3">

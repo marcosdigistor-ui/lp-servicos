@@ -245,7 +245,7 @@ const Projects: React.FC = () => {
                 <div className="relative bg-dark-800/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-dark-700/50 hover:border-primary-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-primary-500/10 h-full">
                   <div className="h-[400px] sm:h-[450px] md:h-[400px] lg:h-[450px] xl:h-[500px] relative overflow-hidden">
                     <img
-                      src={index === 0 ? "https://images.pexels.com/photos/8439093/pexels-photo-8439093.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2" : "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2"}
+                      src={project.image}
                       alt={project.title}
                       className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                       loading="lazy"
@@ -281,7 +281,7 @@ const Projects: React.FC = () => {
           <div className="space-y-8">
             <div className="relative h-[300px] rounded-xl overflow-hidden">
               <img
-                src={selectedProject.title === "Super Time de Agentes" ? "https://images.pexels.com/photos/8439093/pexels-photo-8439093.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2" : "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2"}
+                src={selectedProject.image}
                 alt={selectedProject.title}
                 className="absolute inset-0 w-full h-full object-cover"
               />
